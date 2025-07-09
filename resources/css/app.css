@@ -13,3 +13,82 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+.navbar {
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: 50px;
+    position: relative;
+    z-index: 1040;
+    background: #1A1A1A;
+    box-shadow: 0 2px 4px rgba(224, 224, 224, 0.185);
+}
+input::placeholder {
+    color: white !important;
+    opacity: 1;
+}
+.sidebar {
+    min-height: 100vh;
+    background: #1A1A1A;
+    color: #fff;
+    margin-top: 0;
+}
+.sidebar .nav-link {
+    color: #b5b5c3;
+}
+.sidebar .nav-link.active, .sidebar .nav-link:hover {
+    color: #fff;
+    background: #2a2a2a;
+    border-radius: 1rem;
+}
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(30,30,45,0.06);
+}
+.hover-structure:hover {
+    background-color: #2a2a2a !important;
+    color: #fff !important;
+}
+.hover-icon:hover {
+    background-color: #2a2a2a !important;
+    color: #fff !important;
+}
+
+.keen-btn-container {
+    background: transparent;
+    transition: background 0.2s;
+}
+.keen-btn-container:hover {
+    background: rgba(255, 255, 255, 0.142);
+}
+
+
+.keen-sidebar-flyout {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left: 250px;
+    width: 25vw;
+    min-width: 260px;
+    max-width: 350px;
+    height: calc(100vh - 50px);
+    background: #1A1A1A;
+    color: #fff;
+    border-radius: 0 1rem 1rem 0;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+    z-index: 3000;
+    padding: 2rem 1rem 2rem 1rem;
+    transition: opacity 0.2s;
+    overflow-y: auto;
+}
+.keen-sidebar-hover:hover .keen-sidebar-flyout,
+.keen-sidebar-hover:focus-within .keen-sidebar-flyout {
+    display: block;
+}
+.hover-card:hover {
+    background-color: #0d6efd !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(13, 110, 253, 0.3) !important;
+}
