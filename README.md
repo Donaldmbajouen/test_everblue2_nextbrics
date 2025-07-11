@@ -197,4 +197,10 @@ php artisan serve
 
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
+## Aperçu du projet
+
+![Aperçu 1](images/img1.png)
+![Aperçu 2](images/img2.png)
+![Aperçu 2](images/img3.png)
+
 
